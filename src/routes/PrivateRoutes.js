@@ -1,5 +1,5 @@
 import React from 'react'
-const DashboardPage = React.lazy(() => import('../pages/UnAuth/Login'))
+const DashboardPage = React.lazy(() => import('../pages/Auth/Dashboard'))
 export const PrivateRoutes = [
   {
     key: 'dashboard',
